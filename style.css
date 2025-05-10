@@ -1,0 +1,76 @@
+
+
+.myport{
+    font-family: "roboto";
+    font-size: 18px;
+}
+
+#navitem{
+    font-family: "roboto";
+    color: white;
+    font-size: 15px;
+}
+
+
+body { 
+    font-family: "caveat"; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.container { 
+    max-width: 2000px;
+    margin: auto;
+    padding: 0rem; 
+}
+
+.hero, .section, .form-section { 
+    background-color: rgb(176, 198, 230);
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding: 10px; 
+    text-align: center; 
+}
+
+h1, h2 { 
+    font-weight: bold; 
+}
+
+.button { 
+   background-color: grey;
+    width: 150px;
+    height: 45px;
+    color: black;
+    border-radius: 20px;
+    border-width: 0px; 
+}
+
+.grid { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    justify-content: center; 
+}
+
+.card { 
+    border: 1px solid #ccc; 
+    border-radius: 0.5rem; 
+    padding: 1rem; 
+    flex: 1 1 250px; 
+}
+
+input, select, textarea { 
+    width: 100%; 
+    padding: 0.75rem; 
+    margin-bottom: 1rem;
+    border-radius: 0.5rem; 
+    border: 1px solid #ccc; 
+}
+
+form { 
+    max-width: 600px; 
+    margin: auto; 
+}
+
